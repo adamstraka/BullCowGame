@@ -50,7 +50,7 @@ bool FBullCowGame::IsLowercase(FString Word) const
 
 void FBullCowGame::Reset()
 {
-	const FString HIDDEN_WORD = "krabice";
+	const FString HIDDEN_WORD = "blind";
 	/*TODO allow user to input hidden word lenght to be selected from a map  - Tmap <int32, FString> HiddenWord { { 3, prd },{ 4, muka },{ 5, kudla },{ 6, poklad },{ 7, pustina } }; */
 	MyHiddenWord = HIDDEN_WORD; /*HiddenWord[SelectHiddenWordLength()] ;*/ // part of the possible code
 	MyCurrentTry = 1;
